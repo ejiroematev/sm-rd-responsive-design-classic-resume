@@ -1,0 +1,346 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans+Narrow:wght@400;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #fff;
+}
+
+h3 {
+  font-family: "PT Sans Narrow", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  text-transform: uppercase;
+  line-height: 24px;
+  letter-spacing: 2px;
+  color: #9e8c6c;
+  padding-bottom: 10px;
+}
+
+ul {
+  list-style: none;
+  font-family: "PT Sans Narrow", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 34px;
+}
+
+h2 {
+  font-family: "Playfair Display", sans-serif;
+  font-size: 36px;
+  line-height: 46px;
+  padding-bottom: 10px;
+}
+
+p {
+  font-family: "PT Sans Narrow", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 34px;
+  padding-bottom: 30px;
+}
+
+/* Header */
+header {
+  background-color: rgba(158, 140, 108, 0.1);
+  display: flex;
+  padding: 180px 165px 180px 165px;
+  align-items: center;
+  position: relative;
+}
+
+header::before,
+header::after {
+  position: absolute;
+  content: "";
+  height: 120px;
+  bottom: -60px;
+  right: 0;
+  left: 0;
+  background-color: #fff;
+  transform: skewY(-3deg);
+  z-index: 3;
+}
+
+.headerimage {
+  margin-right: 125px;
+}
+
+img {
+  /* border: blueviolet 10px solid;
+  border-radius: 50%; */
+  width: 350px;
+}
+
+.phero {
+  font-family: "PT Sans Narrow", sans-serif;
+  font-size: 18px;
+  text-transform: uppercase;
+  color: #9e8c6c;
+  margin-bottom: 10px;
+  padding: 0 !important;
+}
+
+.hero-header {
+  font-family: "Playfair Display", serif;
+  font-size: 126px;
+  line-height: 112px;
+  letter-spacing: -2.17px;
+  margin-bottom: 50px;
+}
+
+.CTA {
+  font-family: "PT Sans Narrow", sans-serif;
+  font-size: 18px;
+  line-height: 24px;
+  letter-spacing: 2px;
+  text-align: center;
+  padding: 18px 50px 18px 50px;
+  text-decoration: none;
+  color: #fff;
+  background-color: #0699a6;
+}
+
+/* Header Ends */
+
+/* Main Content Area */
+.mainContentarea {
+  padding: 90px 165px 0 165px;
+  display: flex;
+}
+
+/* Section 1 */
+.section1 {
+  /* display: flex; */
+  /* justify-content: space-between; */
+  z-index: 10;
+}
+
+.skillset {
+  margin-bottom: 100px;
+}
+
+.careerTraits {
+  margin-top: 100px;
+}
+
+.recentWorks {
+  margin-top: 100px;
+}
+
+/* .section1 > div {
+  flex: 1;
+}
+.section1 > .aboutMe {
+  flex: 2;
+} */
+
+/* Section 2z */
+.section2 {
+  margin-left: 125px;
+}
+
+.aboutMe {
+  margin-bottom: 66px;
+}
+
+.sectionText {
+  font-family: "PT Sans Narrow", sans-serif;
+  font-size: 20px;
+  line-height: 34px;
+  font-weight: 400;
+}
+
+.bar {
+  background-color: #0699a6;
+  width: 71px;
+  height: 10px;
+  margin-top: 80px;
+}
+
+/* .main {
+  padding-top: 66px;
+} */
+/* .aside {
+  padding-top: 19px;
+} */
+
+span {
+  font-family: "PT Sans Narrow", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 34px;
+}
+
+.links {
+  color: #0699a6;
+  font-weight: 700;
+}
+.experience h2 {
+  padding-bottom: 16px;
+}
+.experiences {
+  margin-bottom: 66px;
+}
+.details {
+  display: flex;
+  padding-bottom: 10px;
+}
+.details h3 {
+  line-height: 34px;
+  padding-bottom: 0;
+}
+.details p {
+  line-height: 34px;
+  margin-left: auto;
+  padding-bottom: 0;
+}
+.bar2 {
+  background-color: #0699a6;
+  width: 71px;
+  height: 10px;
+  margin-bottom: 70px;
+}
+
+/* Main Content Area Ends */
+
+/* Footer */
+footer {
+  position: relative;
+  background-color: rgba(158, 140, 108, 0.1);
+  padding: 177px 0 112px 0;
+  text-align: center;
+}
+footer::before,
+footer::after {
+  position: absolute;
+  content: "";
+  height: 100px;
+  top: -50px;
+  right: 0;
+  left: 0;
+  background-color: #fff;
+  transform: skewY(-3deg);
+}
+
+h1 {
+  font-family: "Playfair Display", sans-serif;
+  font-size: 66px;
+  line-height: 82px;
+  letter-spacing: -1.14px;
+  margin-bottom: 40px;
+}
+.footersection h2 {
+  font-family: "Playfair Display", sans-serif;
+  font-size: 36px;
+  line-height: 46px;
+  color: #0699a6;
+  margin-bottom: 65.68px;
+}
+.footerlinks a {
+  color: #0699a6;
+  font-size: 25px;
+  padding: 0 23px 0 23px;
+}
+
+/* Tablet */
+
+@media (max-width: 768px) {
+  header {
+    flex-direction: column;
+    text-align: center;
+    padding: 80px 143px 180px 143px;
+  }
+
+  .headerimage {
+    margin-bottom: 40px;
+    margin-right: 0;
+  }
+
+  img {
+    height: 200px;
+    width: 200px;
+  }
+
+  .hero-header {
+    font-size: 86px;
+    line-height: 76px;
+    margin-bottom: 50px;
+  }
+
+  .mainContentarea {
+    flex-direction: column-reverse;
+    padding: 0 142px 0 144px;
+  }
+  .section2 {
+    margin: 65px 0 0 0;
+  }
+
+  .skillset {
+    margin-bottom: 60px;
+  }
+
+  .careerTraits {
+    margin-top: 60px;
+  }
+
+  .recentWorks {
+    margin-top: 60px;
+  }
+
+  h1 {
+    font-family: "Playfair Display", sans-serif;
+    font-size: 56px;
+    line-height: 82px;
+    letter-spacing: -1.14px;
+    margin-bottom: 40px;
+  }
+  .footersection h2 {
+    font-size: 30px;
+    line-height: 46px;
+    width: 450px;
+    margin: 0 auto 65.68px auto;
+  }
+}
+
+/* Mobile */
+@media (max-width: 540px) {
+  .mainContentarea {
+    padding: 0 20px 0 20px;
+  }
+
+  .hero-header {
+    font-size: 56px;
+    line-height: 46px;
+  }
+
+  .details {
+    flex-direction: column;
+  }
+
+  .details p {
+    margin: 0 0 20px 0;
+  }
+
+  .experiences {
+    margin-bottom: 40px;
+  }
+
+  h1 {
+    font-size: 40px;
+    line-height: 50px;
+  }
+  .phero {
+    font-size: 14px;
+    line-height: 24px;
+  }
+  .footersection h2 {
+    font-size: 26px;
+    line-height: 36px;
+    width: 75%;
+  }
+}
